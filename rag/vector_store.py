@@ -30,3 +30,12 @@ def query_games(question):
         n_results=1
     )
     return results
+
+def add_web_knowledge(document_id, content, metadata):
+    collection.add(
+        documents=[content],
+        ids=[document_id],
+        metadatas=[metadata]
+    )
+
+    print("New knowledge stored in vector database.")
