@@ -1,0 +1,7 @@
+{
+  "title": "PlayerUnknown's Battlegrounds",
+  "description": "A battle royale game developed by PUBG Studios where players compete to be the last survivor.",
+  "release_date": "2017-12-20",
+  "platforms": ["PC", "Xbox One", "PS4", "Mobile"],
+  "publisher": "PUBG Corporation"
+}
